@@ -1,7 +1,3 @@
-# ── Sensitive data (never commit patient data) ────────────────────────────────
-data/
-data-raw/*.xlsx
-
 # ── R generated files ─────────────────────────────────────────────────────────
 .Rhistory
 .RData
