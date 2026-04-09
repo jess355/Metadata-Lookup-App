@@ -1,0 +1,24 @@
+# ── Sensitive data (never commit patient data) ────────────────────────────────
+data/
+data-raw/*.xlsx
+
+# ── R generated files ─────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# ── renv / packrat (dependency management) ────────────────────────────────────
+renv/library/
+renv/.cache/
+packrat/lib/
+packrat/lib-ext/
+packrat/lib-R/
+
+# ── shinytest2 screenshot snapshots (large binary files) ──────────────────────
+tests/testthat/_snaps/**/*.png
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.~lock.*

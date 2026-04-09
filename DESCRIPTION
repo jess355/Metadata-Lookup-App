@@ -1,0 +1,16 @@
+Type: Shiny
+Title: Genomic Metadata Browser
+Description: A Shiny app for browsing and searching genomic metadata including
+    patients, office visits, and samples stored in a normalized SQLite database.
+Author: Jessica
+Depends:
+    R (>= 4.1)
+Imports:
+    shiny,
+    DBI,
+    RSQLite,
+    DT,
+    dplyr
+Suggests:
+    testthat (>= 3.0.0),
+    shinytest2
